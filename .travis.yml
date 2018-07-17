@@ -1,14 +1,14 @@
+notifications:
+  email: false
+# Cancel EMAIL notification
 python:
   - "3.6"
 # command to install dependencies
 install:
-  - pip3 install -r requirements.txt
+  - pip3 install --user -r requirements.txt
 # command to run tests
 script:
   - python3 hello.py
 # or py.test for Python versions 3.5 and below
 before_install:
   - sudo apt-get update
-  - sudo apt-get upgrade
-  - sudo apt-get install python3
-  - sudo apt-get install pip3
