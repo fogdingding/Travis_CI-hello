@@ -54,3 +54,5 @@ print ("hello，Travis-CI")
 
 7. 如果沒什麼事情的話就會出現
 >![](https://github.com/fogdingding/Travis_CI-hello/blob/master/img/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-%E8%87%AA%E5%8B%95%E5%8C%96%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C-2.JPG)
+>>如實印出 hello.py的東西了
+>![](https://github.com/fogdingding/Travis_CI-hello/blob/master/img/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-%E8%87%AA%E5%8B%95%E5%8C%96%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C.JPG)
