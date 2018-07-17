@@ -24,7 +24,7 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - hello
+  - python3 hello.py
 # or py.test for Python versions 3.5 and below
 ```
 ####### PS.如果忘記如何使用git指令 可以參考[github教學網站](https://github.com/fogdingding/github)
