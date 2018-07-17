@@ -49,7 +49,7 @@ print ("hello，Travis-CI")
 ```
 
 6. 然後就可以請Travis-CI先行跑一下，如下圖
-###### 網站大概是 https://travis-ci.org/github_user_name/github_project_name/requests
+###### 網站大概是 https://travis-ci.org/"github_user_name"/"github_project_name"/jobs/"random_ID"
 >![](https://github.com/fogdingding/Travis_CI-hello/blob/master/img/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-%E8%87%AA%E5%8B%95%E5%8C%96%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C.JPG)
 
 7. 如果沒什麼事情的話就會出現
