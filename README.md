@@ -17,15 +17,26 @@ for Travis_CI simple teaching
 ###### 檔案內容如下，檔案名稱為 .travis.yml
 ```
 language: python
+# set language
+notifications:
+  email: false
+# Cancel EMAIL notification
 python:
   - "3.6"
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip3 install --user -r requirements.txt
 # command to run tests
 script:
   - python3 hello.py
 # or py.test for Python versions 3.5 and below
+before_install:
+  - sudo apt-get update
+# work around https://github.com/travis-ci/travis-ci/issues/8363
+  - pyenv global system 3.6
+  - which pip3
+  - python --version
+  - pip3 --version
 ```
 ####### PS.如果忘記如何使用git指令 可以參考[github教學網站](https://github.com/fogdingding/github)
 
