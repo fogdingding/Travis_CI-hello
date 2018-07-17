@@ -9,5 +9,6 @@ script:
 # or py.test for Python versions 3.5 and below
 before_install:
   - sudo apt-get update
+  - sudo apt-get upgrade
   - sudo apt-get install python3
   - sudo apt-get install pip3
