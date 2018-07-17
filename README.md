@@ -41,7 +41,7 @@ before_install:
 ####### PS.如果忘記如何使用git指令 可以參考[github教學網站](https://github.com/fogdingding/github)
 
 4. 接下來要打開自動化按鈕，如下圖
-![]()
+>![](https://github.com/fogdingding/Travis_CI-hello/blob/master/img/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-%E6%89%93%E9%96%8B%E8%87%AA%E5%8B%95%E5%8C%96%E6%8C%89%E9%88%95.JPG)
 
 5. 以及建立一個測試的py檔案，如下
 ```py
@@ -50,6 +50,6 @@ print ("hello，Travis-CI")
 
 6. 然後就可以請Travis-CI先行跑一下，如下圖
 ###### 網站大概是 https://travis-ci.org/github_user_name/github_project_name/requests
-![]()
+>![]()
 
-7. 關於測試的檔案如何撰寫，就要....
+7. 如果沒什麼事情的話就會出現
