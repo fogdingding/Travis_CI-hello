@@ -5,7 +5,7 @@ python:
   - "3.6"
 # command to install dependencies
 install:
-  - pip install --user -r requirements.txt
+  - pip3 install --user -r requirements.txt
 # command to run tests
 script:
   - python3 hello.py
@@ -15,3 +15,5 @@ before_install:
 # work around https://github.com/travis-ci/travis-ci/issues/8363
   - pyenv global system 3.6
   - which pip3
+  - python --version
+  - pip3 --version
